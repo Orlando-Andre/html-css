@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        header > h1 {
+            text-align: center;
+        }
+
+        nav {
+            background-color: rgb(71, 70, 70);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+
+        nav > a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.384);
+        }
+
+        article {
+            background-color: lightgray;
+            margin: 10px;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(99, 99, 99);
+            text-align: right;
+            margin: 10px;
+            color: white;
+
+        }
+
+        article > aside > p {
+            margin: 10px;
+            
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Esportes Política Tecnologia</h2>
+            <article>
+                <h3>Copa do Mundo Catar</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores sapiente illo consectetur aspernatur deserunt quod sed reiciendis! Similique, vel. Quos tenetur sint autem sunt deleniti illo culpa maiores molestiae quam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis adipisci ipsa similique perferendis eaque. Minus nam ipsam quaerat culpa placeat veniam omnis voluptatum nulla sapiente alias? Nobis cumque ducimus molestias?</p>
+                <aside>
+                    <p>Matéria escrita por Antonella Anta</p>
+                </aside>
+            </article>
+            <article>
+                <h3>Lançamento Oficial - AirPods 6</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia perferendis earum ipsum inventore fugit aspernatur numquam mollitia ad ducimus facere repellat assumenda in facilis ea, explicabo odit, quisquam perspiciatis adipisci. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia voluptates deleniti omnis, nisi magnam eius dolorum adipisci id quisquam quae obcaecati quo culpa atque officiis molestias modi ea porro iure.</p>
+                <aside>
+                    <p>by Apple</p>
+                </aside>
+            </article>
+        </section>
+        <section id="noticias">
+            <h2>Notícias sobre o Brasil</h2>
+            <article>
+                <h3>Acidente na Marginal Botafogo, nenhum ferido!</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus nostrum incidunt aut dolores iste dolore, sunt soluta et accusamus explicabo doloribus, facilis, molestiae quo necessitatibus! Qui voluptatibus fugiat minus magnam Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus saepe eius tempora, quos ab voluptate iste obcaecati in dicta, repellat nostrum esse vero sit quae, animi ipsa eaque provident voluptatum!.</p>
+                <aside>
+                    <p>Artigo escrito por José Brusqueta</p>
+                </aside>
+            </article>
+            <article>
+                <h3>Posse presidencial - Ao vivo</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam beatae architecto voluptatibus! Voluptate nisi fuga alias, tenetur sunt blanditiis? Suscipit cumque, voluptatibus architecto voluptatum neque provident sit officiis ducimus eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quia dignissimos ipsa aut impedit modi officia perferendis ea. Possimus sint fuga similique natus atque consequuntur maiores cum id ipsam quibusdam.</p>
+                <aside>
+                    <p>Coluna Go infoco</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Orlando André</p>
+    </footer>
+</body>
+</html>
