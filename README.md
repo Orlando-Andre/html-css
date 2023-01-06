@@ -7,7 +7,7 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
 <h2>Exercícios</h2>
 
-<a href="https://orlando-andre.github.io/html-css/exercicios/Ex001/">Exercício 001</a>
+<a href="https://orlando-andre.github.io/html-css/exercicios/Ex001/" target="_blank" rel="external">Exercício 001</a>
 
 <a href="https://orlando-andre.github.io/html-css/exercicios/Ex002/">Exercício 002</a>
 
