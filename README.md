@@ -3,6 +3,8 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
+<a href="https://orlando-andre.github.io/html-css/">Acesse pelo GitHub pages</a>
+
 <h2>Exercícios</h2>
 
 <a href="https://orlando-andre.github.io/html-css/exercicios/Ex001/">Exercício 001</a>
