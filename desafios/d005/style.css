@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    background-color: #68A3FD;
+}
+
+div {
+    margin: auto;
+    width: 400px;
+    background-color: #eff8ff;
+    border-radius: 10px;
+    padding: 1px;
+    text-align: center;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.368);
+}
+
+h1 {
+   margin-top: 5px;
+    background-color: #0466c8;
+    color: white;
+    border-radius: 3px;
+}
+
+h2 {
+
+}
+
+#desc {
+    padding: 10px;
+    text-align: justify;
+}
+
+ul {
+    text-align: left;
+}
